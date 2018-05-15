@@ -5,13 +5,13 @@ const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 
 // CONTROLLERS
-const htmlRoutes = require('./controllers/htmlRoutes.js');
+const htmlRoutes = require ('./controllers/htmlRoutes.js');
 
 // INITIALIZE EXPRESS
 const app = express();
 
 // SET UP HANDLEBARS
-app.engine('handlebars', express({defaultLayout: 'main'}));
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 // STATIC CONTENT
@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use('/', htmlRoutes);
 
 // DEFAULT PORT
-const port = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8080;
 
 // START SERVER
 app.listen(PORT, () => {
