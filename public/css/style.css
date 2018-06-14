@@ -15,7 +15,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-h2 {
+h2, .project-head {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -23,6 +23,8 @@ h2 {
     padding-top: 160px;
     padding-bottom: 120px;
     background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     max-width: 100%;
 }
@@ -73,7 +75,7 @@ a:hover, a:focus, a:active {
 }
 
 
-/* timeline css */
+/************* timeline css */
 .left-time-col {
     border-right: 6px solid #5da7a1;
     position: relative;
@@ -103,4 +105,70 @@ a:hover, a:focus, a:active {
     position: absolute;
     left: -15px;
     top: 90px;
+}
+
+/* ******************** */
+
+
+#portfolio-container {
+    padding-top: 50px
+}
+
+.project-jumbo {
+    background-color: #f3efe5;
+    padding-top: 160px;
+}
+
+.project-text {
+    padding-top: 80px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn:active, .btn:focus {
+    box-shadow: none;
+}
+
+#err-text {
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .timeline-card {
+        margin: auto !important;
+    }
+
+    .right-time-col {
+        margin-left: 15px;
+    }
+
+    .left-time-col {
+        border-right: 0px;
+        margin-left: 15px;
+        /* margin-right: 15px; */
+        
+    }
+
+    .circle-l {
+        display: none;
+    }
+
+    .circle-r {
+        display: none;
+    }
+
+    .placehold-col {
+        display: none;
+    }
+    
+    .contact-head, .contact-info {
+        text-align: center !important
+    }
+
+    .contact-col {
+        padding: 0 !important
+    }
+
 }
