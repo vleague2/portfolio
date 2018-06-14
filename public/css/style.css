@@ -3,11 +3,15 @@
     box-shadow: 0px 1px 10px rgb(46, 46, 46);
 }
 
+#body {
+    position: relative;
+}
+
 .name {
     font-family: 'Poppins', sans-serif;
 }
 
-.sub-header, .nav-item {
+.sub-header, .nav-items, h5, h6 {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -39,9 +43,8 @@ h2 {
    position: relative;
 }
 
-#skills {
+#skills, #contact {
     background-color: #f3efe5;
-    /* rgb(230, 230, 230); */
 }
 
 .card-title, .card-text {
@@ -50,4 +53,54 @@ h2 {
 
 a:hover, a:focus, a:active {
     color: white;
+}
+
+
+.card {
+    height: 100%
+}
+
+/* fixing padding and margin for scrollspy to hit the right target on jump */
+#projects, #skills, #work, #contact {
+    padding-top: 80px;
+    margin-top: -60px;
+    margin-bottom: 80px;
+}
+
+.skill-txt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+
+/* timeline css */
+.left-time-col {
+    border-right: 6px solid #5da7a1;
+    position: relative;
+    padding-top: 30px;
+}
+
+.right-time-col {
+    position: relative;
+    padding-top: 30px;
+}
+
+.circle-l {
+    height: 25px;
+    width: 25px;
+    background-color: #5da7a1;
+    border-radius: 50%;
+    position: absolute;
+    right: -15px;
+    top: 90px;
+}
+
+.circle-r {
+    height: 25px;
+    width: 25px;
+    background-color: #5da7a1;
+    border-radius: 50%;
+    position: absolute;
+    left: -15px;
+    top: 90px;
 }
