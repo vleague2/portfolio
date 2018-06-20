@@ -1,0 +1,23 @@
+[
+    {
+        "leftTitle": "UCF Fullstack Developer Continuing Education Course",
+        "leftDate": "March 2018 - June 2018",
+        "leftText": "Three-month bootcamp for full-stack developers. Learned HTML & CSS, Bootstrap & Materialize,  Javascript (ES6), jQuery,  Handlebars, Node.js, Express.js, React.js, MySQL & Sequelize, and Mongo & Mongoose. Worked on both solo projects and team projects (including responsibilities as team manager).",
+        "rightTitle": "Business and Marketing Coordinator at Kedge, LLC",
+        "rightDate": "August 2016 - March 2018",
+        "rightText": "Position at a small foresight training and consulting company based out of Kissimmee, FL. Worked roles such as web designer with front-end WordPress, digital and print designer, marketing campaign coordinator, social media manager, copywriter and editor, event planner for a twice-yearly international training program, and conference proposal writer and collateral organizer."
+    },
+    {
+        "leftTitle": "Associate Editor at UCF Undergraduate Research Journal",
+        "leftDate": "May 2015 - May 2016",
+        "leftText": "Ran the Undergraduate Research Journal in coordination with the journal's Editor. Performed all administrative and organizational duties to keep the journal running, including revamping our submission system and tracking system. Coordinated with our pipeline of authors to move them along the submission process. Absorbed the journal's web publishing process as well, and became responsible for moving all published content onto our website with HTML.",
+        "rightTitle": "Mentor Writing Consultant at the UCF Writing Center",
+        "rightDate": "January 2013 - May 2016",
+        "rightText": "Tutored UCF students across all disciplines in multiple genres of writing. Performed semesterly research projects related to writing center work, which entailed working with a group to research an issue, create a solution, and present to the director. Took on the role of Marketing Manager for our center in order to better advertise our services to the school's 60,000 student population. Managed a team of consultants to create consistent social media posts, and also explored digital, print, and event advertising."
+    },
+    {
+        "leftTitle": "BA in English Literature at University of Central Florida",
+        "leftDate": "August 2012 - May 2016",
+        "leftText": "Studied English Literature with concentration in science fiction, magical realism, and speculative fiction. Published a research paper on feminist speculative fiction with the UCF Undergraduate Research Journal in the spring of 2015. Minored in Writing and Rhetoric and Dance."
+    }
+]

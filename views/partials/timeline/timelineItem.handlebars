@@ -1,0 +1,42 @@
+<div class="col-md-4 left-time-col offset-md-2">
+    <div class="circle-l"></div>
+    <div class="card mr-5 timeline-card">
+        <div class="card-body">
+            <h5 class="card-title">
+                {{this.leftTitle}}
+            </h5>
+            <h6 class="card-subtitle text-muted mb-3">
+                {{this.leftDate}}
+            </h6>
+            <p class="card-text pb-3">
+                {{this.leftText}}
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-md-4 right-time-col placehold-col">
+</div>
+
+{{#if this.rightTitle}}
+    <div class="col-md-4 left-time-col offset-md-2 placehold-col">
+    </div>
+
+    <div class="col-md-4 right-time-col">
+        <div class="circle-r"></div>
+        <div class="card ml-5 timeline-card">
+            <div class="card-body">
+                <h5 class="card-title">
+                    {{this.rightTitle}}
+                </h5> 
+                <h6 class="card-subtitle text-muted mb-3">
+                    {{this.rightDate}}
+                </h6>
+                <p class="card-text pb-3">
+                    {{this.rightText}}  
+                </p>
+            </div>
+        </div>
+    </div>
+{{/if}}

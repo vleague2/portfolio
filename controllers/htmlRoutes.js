@@ -2,10 +2,11 @@
 const express = require('express');
 const router = express.Router();
 const project_previews = require('./../data/projectpreviews.json');
+const timeline_items = require("./../data/timelineItems.json")
 
 // HOME PAGE ROUTE
 router.get('/', (req, res) => {
-    res.render('index', {projects: project_previews});
+    res.render('index', {projects: project_previews, timelineItems: timeline_items});
 })
 
 // in progress
