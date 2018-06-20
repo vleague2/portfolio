@@ -15,84 +15,9 @@
             <div class="row justify-content-center mt-5">
                 <div class="col-sm-10">
                     <div class="row justify-content-center">
-                        <div class="col-sm-6 text-center">
-                            <div class="card">
-                                <a href="https://github.com/vleague2/novelize"><img class="card-img-top" src="img/editor.png"></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        NOVELIZE
-                                    </h4>
-                                    <p class="card-text">
-                                        Novelize is a full-stack application that gives novelists an integrated writing environment. It runs on React, Node, Express, and MySQL.
-                                    </p>
-                                    <a href="https://github.com/vleague2/novelize" class="project-title mb-2 btn">See More</a>
-                                </div>
-                            </div>       
-                        </div>
-
-                        <div class="col-sm-6 text-center">
-                            <div class="card">
-                                <a href="https://github.com/vleague2/req.libs"><img class="card-img-top" src="img/lillibs.png"></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        LIL LIBS
-                                    </h4>
-                                    <p class="card-text">
-                                        Lil Libs is a full-stack game inspired by MadLibs and focused on popculture stories. It runs on Handlebars, Node, Express, and MySQL.
-                                    </p>
-                                    <a href="https://github.com/vleague2/req.libs" class="project-title mb-2 btn">See More</a>
-                                </div>
-                            </div>       
-                        </div>
-                    </div>
-
-                    <div class="row mt-5">
-                        <div class="col-sm-6 text-center">
-                            <div class="card">
-                                <a href="https://github.com/vleague2/pet-finder"><img class="card-img-top" src="img/petfinder.png"></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        PET FINDER
-                                    </h4>
-                                    <p class="card-text">
-                                        Pet Finder is a full-stack application that helps Orlando pet seekers find a pet that fits their lifestyle based on a 10-question quiz. Pet Finder uses Handlebars, Node, and Express.
-                                    </p>
-                                    <a href="https://github.com/vleague2/pet-finder" class="project-title mb-2 btn">See More</a>
-                                </div>
-                            </div>       
-                        </div>
-
-                        <div class="col-sm-6 text-center">
-                            <div class="card">
-                                <a href="https://github.com/vleague2/project_move"> <img class="card-img-top" src="img/projectmove.png"></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        PROJECT MOVE
-                                    </h4>
-                                    <p class="card-text">
-                                        Project Move is a front-end application that uses multiple APIs to suggest outdoor activities to the user based on their city. Project Move uses Javascript and Materialize.
-                                    </p>
-                                    <a href="https://github.com/vleague2/project_move" class="project-title mb-2 btn">See More</a>
-                                </div>
-                            </div>       
-                        </div>
-                    </div>
-
-                    <div class="row mt-5 justify-content-center mb-4">
-                        <div class="col-sm-6 text-center">
-                            <div class="card">
-                                <a href="https://github.com/vleague2/clicky-game"><img class="card-img-top" src="img/pusheen.png"></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        PUSHEEN CLICKY GAME
-                                    </h4>
-                                    <p class="card-text">
-                                        This is a front-end React.js game featuring the popular cat character Pusheen. It utilizes state to track the user's clicks on 12 different Pusheen images.
-                                    </p>
-                                    <a href="https://github.com/vleague2/clicky-game" class="project-title mb-2 btn">See More</a>
-                                </div>
-                            </div>       
-                        </div>
+                        {{#each projects}}
+                            {{> projectsprev/projectsprev}}
+                        {{/each}}
                     </div>
                 </div>
             </div>
@@ -106,7 +31,10 @@
         
             <div class="row">
                 <div class="col-sm-3 text-center mb-3">
-                    <i class="fab fa-js fa-7x tech-icon"></i>
+                    {{!-- <span class="tooltip"> --}}
+                        <i class="fab fa-js fa-7x tech-icon"></i>
+                    {{!-- </span> --}}
+                    
                     
                 </div>
 

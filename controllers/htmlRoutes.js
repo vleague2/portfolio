@@ -1,10 +1,11 @@
 // NODE MODULES
 const express = require('express');
 const router = express.Router();
+const project_previews = require('./../data/projectpreviews.json');
 
 // HOME PAGE ROUTE
 router.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', {projects: project_previews});
 })
 
 // in progress
