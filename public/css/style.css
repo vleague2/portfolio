@@ -68,8 +68,45 @@ a:hover, a:focus, a:active {
     width: 100%;
 }
 
+/* transition for the hover effect */
 .card {
-    height: 100%
+    height: 100%;
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* shadow and size change when you hover */
+.card:hover {
+    box-shadow: 0px 0px 15px rgba(236, 236, 236, 0.603);
+    transform: scale(1.02, 1.02);
+}
+
+/* make arrows for timeline items on the left cards */
+.card-left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 62px;
+    width: 0;
+    z-index: 1;
+    right: -10px;
+    border: medium solid lightgray;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent lightgray;
+}
+
+/* make arrows for timeline cards on the right cards */
+.card-right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 62px;
+    width: 0;
+    z-index: 1;
+    left: -10px;
+    border: medium solid lightgray;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent lightgray transparent transparent;
 }
 
 /* fixing padding and margin for scrollspy to hit the right target on jump */
