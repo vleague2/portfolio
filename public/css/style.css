@@ -167,9 +167,17 @@ a:hover, a:focus, a:active {
 }
 
 .project-text {
-    padding-top: 80px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+.project-heading {
+    padding-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: center;
 }
 
 .btn:active, .btn:focus {
