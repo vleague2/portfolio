@@ -14,25 +14,25 @@
     {
         "name": "LIL LIBS",
         "preview": "Lil Libs is a full-stack game inspired by MadLibs and focused on popculture stories. It runs on Handlebars, Node, Express, and MySQL.",
-        "link": "https://github.com/vleague2/req.libs",
+        "git_link": "https://github.com/vleague2/req.libs",
         "image": "img/lillibs.png"
     },
     {
         "name": "PET FINDER",
         "preview": "Pet Finder is a full-stack application that helps Orlando pet seekers find a pet that fits their lifestyle based on a 10-question quiz. Pet Finder uses Handlebars, Node, and Express.",
-        "link": "https://github.com/vleague2/pet-finder",
+        "git_link": "https://github.com/vleague2/pet-finder",
         "image": "img/petfinder.png"
     },
     {
         "name": "PROJECT MOVE",
         "preview": "Project Move is a front-end application that uses multiple APIs to suggest outdoor activities to the user based on their city. Project Move uses Javascript and Materialize.",
-        "link": "https://github.com/vleague2/project_move",
+        "git_link": "https://github.com/vleague2/project_move",
         "image": "img/projectmove.png"
     },
     {
         "name": "PUSHEEN CLICKY GAME",
         "preview": "This is a front-end React.js game featuring the popular cat character Pusheen. It utilizes state to track the user's clicks on 12 different Pusheen images.",
-        "link": "https://github.com/vleague2/clicky-game",
+        "git_link": "https://github.com/vleague2/clicky-game",
         "image": "img/pusheen.png"
     }    
 ]
