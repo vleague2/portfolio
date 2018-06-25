@@ -46,6 +46,10 @@ h2, .project-head {
     font-family: 'Roboto', sans-serif;
 }
 
+.project-title:hover {
+    color: white;
+}
+
 #index-container {
    max-width: 100%;
    padding: 0px;
@@ -60,7 +64,7 @@ h2, .project-head {
     font-family: 'Roboto', sans-serif;
 }
 
-a:hover, a:focus, a:active {
+.nav-link:hover, .nav-link:focus, .nav-link:active {
     color: white;
 }
 
@@ -163,7 +167,8 @@ a:hover, a:focus, a:active {
 
 .project-jumbo {
     background-color: #f3efe5;
-    padding-top: 160px;
+    padding-top: 140px;
+    padding-bottom: 50px;
 }
 
 .project-text {
@@ -189,6 +194,31 @@ a:hover, a:focus, a:active {
     text-align: center;
 }
 
+.contact-link:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-btn {
+    font-family: 'Roboto', sans-serif;
+    background-color: #5da7a1;
+    border: none;
+    color: white;
+}
+
+.project-btn:hover {
+    color: white;
+}
+
+#button-row {
+    background-color: #f3efe5;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw
+}
 
 @media only screen and (max-width: 767px) {
     .timeline-card {

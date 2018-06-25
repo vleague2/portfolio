@@ -1,0 +1,38 @@
+[
+    {
+        "name": "NOVELIZE",
+        "preview": "Novelize is a full-stack application that gives novelists an integrated writing environment. It runs on React, Node, Express, and MySQL.",
+        "git_link": "https://github.com/vleague2/novelize",
+        "site_link": "https://novel-ize.herokuapp.com/",
+        "image": "img/editor.png",
+        "description": "Novelize is a full-stack application created for writers in the process of drafting a novel. It was created to solve the problem of juggling multiple documents containing prose, character profiles, plot outlines, research notes, and worldbuilding systems. Novelize pulls this data into an integrated drafting environment in which the user can write the prose of their story with access to sidebars containing the references they'll need during the writing process.<br><br>Other drafting software are costly, outdated, and overcomplicated. Novelize is a free, easy-to-use application with a clean and modern UI. It's focused solely on the act of writing the novel so that user can flow through the process seamlessly.<br><br>You can log in to the site using the following credentials: user@test.com, <i>password</i>",
+        "tech": ["<b>React.js:</b> front-end library and state manager", "<b>Node.js:</b> server-side programming", "<b>Express.js:</b> server-side routing and application setup", "<b>MySQL with Sequelize and JawsDB:</b> store user's relational story data", "<b>Passport.js:</b> handle user authentication and session tokens", "<b>Heroku:</b> deploy and host application"],
+        "timeline": ["<b>Conception:</b> initial idea sometime in December of 2017", "<b>Wireframing:</b> began May 25, 2018", "<b>Version 1 Development:</b> happened over a two-week period beginning June 1, 2018", "<b>Version 1 Deployment:</b> June 13, 2018"],
+        "challenges": ["One major challenge with this project was coding the front-end in React.js with only one week of exposure to the technology. I solved this problem through many hours of self-guided research and practice.", "Designing the flow of the editing page was a challenge due to the amount of data coming into the sidebars. Choosing what to display and in what location required me to really think about the project from the user's perspective in terms of usability and modern feel.", "The plot page presented a challenging bit of logic and design -- it includes a visual timeline that is all custom CSS (and will one day be more interactive), while the plot points included on this page required some reordering logic in the event that a user deletes plot point 2 out of 5 and the other plot points must now be updated in the correct order."],
+        "goals": ["<b>Home page design:</b> the landing page will include more information about the features of the application and present a more user-friendly design", "<b>Import/export:</b> user will be able to import and export stories and data", "<b>Version history:</b> user will have access to multiple draft versions and other editing history", "<b>Plot items:</b> user will be able to reorder plot points", "<b>Visual timeline:</b> when drafting,the user will be able to see where they are in the plot timeline", "<b>Emails:</b> Novelize will send reminder emails to users if they have not returned in a specified amount of time", "<b>Account settings:</b> user will be able to edit their account settings", "<b>Sessions:</b> Novelize will store and pass session data more securely", "<b>Authentication:</b> more login options will be available, such as Google and Facebook", "<b>Responsiveness:</b> Novelize will be fully mobile responsive or have a mobile app"]
+    },
+    {
+        "name": "LIL LIBS",
+        "preview": "Lil Libs is a full-stack game inspired by MadLibs and focused on popculture stories. It runs on Handlebars, Node, Express, and MySQL.",
+        "link": "https://github.com/vleague2/req.libs",
+        "image": "img/lillibs.png"
+    },
+    {
+        "name": "PET FINDER",
+        "preview": "Pet Finder is a full-stack application that helps Orlando pet seekers find a pet that fits their lifestyle based on a 10-question quiz. Pet Finder uses Handlebars, Node, and Express.",
+        "link": "https://github.com/vleague2/pet-finder",
+        "image": "img/petfinder.png"
+    },
+    {
+        "name": "PROJECT MOVE",
+        "preview": "Project Move is a front-end application that uses multiple APIs to suggest outdoor activities to the user based on their city. Project Move uses Javascript and Materialize.",
+        "link": "https://github.com/vleague2/project_move",
+        "image": "img/projectmove.png"
+    },
+    {
+        "name": "PUSHEEN CLICKY GAME",
+        "preview": "This is a front-end React.js game featuring the popular cat character Pusheen. It utilizes state to track the user's clicks on 12 different Pusheen images.",
+        "link": "https://github.com/vleague2/clicky-game",
+        "image": "img/pusheen.png"
+    }    
+]
