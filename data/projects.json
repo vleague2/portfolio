@@ -51,6 +51,12 @@
         "name": "PUSHEEN CLICKY GAME",
         "preview": "This is a front-end React.js game featuring the popular cat character Pusheen. It utilizes state to track the user's clicks on 12 different Pusheen images.",
         "git_link": "https://github.com/vleague2/clicky-game",
-        "image": "img/pusheen.png"
+        "site_link": "https://evening-tor-79650.herokuapp.com/",
+        "image": "img/pusheen.png",
+        "description": "The Pusheen Clicky Game is a simple front-end React.js application created as part of UCF's Coding Bootcamp. It is the first webpage I created using React.js, and while it is certainly a simple page, it was a challenge to create at the time.<br><br> In the Pusheen Clicky Game, the user is presented with 12 different images of the popular cat character Pusheen. The user must click on each image only once, but the images shuffle after each click to make it more difficult. The application uses state to track the user's selections and to update the user's current and total scores.",
+        "tech": ["<b>React.js:</b> front-end UI library and state manager", "<b>Bootstrap:</b> front-end component library", "<b>Heroku:</b> deploy and host application"],
+        "timeline": ["<b>Conception:</b> May 23, 2018", "<b>Version 1 Development:</b> May 23-25 and June 13-14, 2018", "<b>Version 1 Deployment:</b> June 13, 2018"],
+        "challenges": ["The major challenge with this project was working with React.js for the first time. This application taught me how to use and manage state with one-way data binding. I faced some difficulties when trying to track the user's clicks and correctly reset the count of each Pusheen image, as well as correctly update the score. The solution was to store the clicked Pusheens in an array as state, and use conditionals to update the state scores appropriately."],
+        "goals": ["<b>Winning:</b> create a win-game condition for when the user wins the game by guessing all 12 Pusheens", "<b>Design:</b> rework the page design to make it more user-friendly on the desktop and especially on mobile","<b>Shuffling Pusheens:</b> there is occasionally a strange page jump when the Pusheen array re-shuffles, and this should be fixed so the page does not move"]
     }    
 ]

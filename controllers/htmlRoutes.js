@@ -26,6 +26,10 @@ router.get('/project/project-move', (req, res) => {
     res.render('project', {project: projects[3]});
 })
 
+router.get('/project/pusheen-game', (req, res) => {
+    res.render('project', {project: projects[4]});
+})
+
 // PAGE NOT FOUND
 router.get('*', (req, res) => {
     res.render('error');
