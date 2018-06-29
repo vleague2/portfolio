@@ -5,10 +5,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="/#projects">Projects</a>
-            <a class="nav-item nav-link" href="/#skills">Tech/Skills</a>
-            <a class="nav-item nav-link" href="/#work">Work History</a>
-            <a class="nav-item nav-link" href="/#contact">Contact</a>
+            <a class="nav-item nav-link" {{#if notHome}}href="/#projects"{{else}}href="#projects"{{/if}}>Projects</a>
+            <a class="nav-item nav-link" {{#if notHome}}href="/#skills"{{else}}href="#skills"{{/if}}>Tech/Skills</a>
+            <a class="nav-item nav-link" {{#if notHome}}href="/#work"{{else}}href="#work"{{/if}}>Work History</a>
+            <a class="nav-item nav-link" {{#if notHome}}href="/#contact"{{else}}href="#contact"{{/if}}>Contact</a>
         </div>
     </div>
 </nav>

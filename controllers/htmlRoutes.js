@@ -9,25 +9,25 @@ router.get('/', (req, res) => {
     res.render('index', {projects: projects, timelineItems: timeline_items});
 })
 
-// in progress
+// ROUTES FOR EACH PROJECT
 router.get('/project/novelize', (req, res) => {
-    res.render('project', {project: projects[0]});
+    res.render('project', {project: projects[0], notHome: true});
 })
 
 router.get('/project/lil-libs', (req, res) => {
-    res.render('project', {project: projects[1]});
+    res.render('project', {project: projects[1], notHome: true});
 })
 
 router.get('/project/pet-finder', (req, res) => {
-    res.render('project', {project: projects[2]});
+    res.render('project', {project: projects[2], notHome: true});
 })
 
 router.get('/project/project-move', (req, res) => {
-    res.render('project', {project: projects[3]});
+    res.render('project', {project: projects[3], notHome: true});
 })
 
 router.get('/project/pusheen-game', (req, res) => {
-    res.render('project', {project: projects[4]});
+    res.render('project', {project: projects[4], notHome: true});
 })
 
 // PAGE NOT FOUND

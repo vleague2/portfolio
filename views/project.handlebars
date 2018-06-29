@@ -1,3 +1,5 @@
+{{> navbar/navbar}}
+
 <div class="jumbotron jumbotron-fluid project-jumbo">
     <h1 class="text-center pb-5 project-head">{{project.name}}</h1>
 </div>
@@ -46,14 +48,14 @@
 
     <div class="row mb-5">
 
-        <div class="col-md-6">
+        <div class="col-md-6 mb-5">
             <h4 class="project-heading mb-4">Major Challenges and Solutions</h4>
                 {{#each project.challenges}}
                     <p class="project-extra-text">{{this}}</p>
                 {{/each}}          
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-6 mb-5">
             <h4 class="project-heading mb-4">Future Goals</h4>
             <ul>
                     {{#each project.goals}}
@@ -63,6 +65,11 @@
         </div>
     </div>
         
+    <div class="row mt-5 pt-4 pb-4" id="cta-return">
+        <div class="col-md-12 text-center">
+            <a href="/#projects" class="btn btn-lg return-btn">Return to Projects</a>
+        </div>
+    </div>
 {{!-- THE PUSHEEN SUITE --}}
 {{!-- The Pusheen Suite is a collection of small applications themed around the famous Pusheen cat plushie. It comprises of multiple games, some front-end only and some full-stack. --}}
 

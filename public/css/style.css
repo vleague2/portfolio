@@ -199,8 +199,8 @@ h2, .project-head {
     text-align: center;
 }
 
-.contact-link:hover {
-    color: #007bff;
+.contact-link:hover, .contact-link {
+    color: #5da7a1;
     text-decoration: none;
 }
 
@@ -223,6 +223,21 @@ h2, .project-head {
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw
+}
+
+#cta-return {
+    background-color: #5da7a1;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw
+}
+
+.return-btn, .return-btn:hover {
+    color: black;
+    background-color: white;
 }
 
 @media only screen and (max-width: 767px) {
@@ -259,6 +274,14 @@ h2, .project-head {
 
     .contact-col {
         padding: 0 !important
+    }
+
+    .card-right::before {
+        border-width: 0px 0 0px 0px;
+    }
+
+    .card-left::before {
+        border-width: 0px 0 0px 0px;
     }
 
     /* #timeline-row {
