@@ -10,9 +10,13 @@ router.get('/', (req, res) => {
 })
 
 // in progress
-// router.get('/project/novelize', (req, res) => {
-//     res.render('project', {project: projects[0]});
-// })
+router.get('/project/novelize', (req, res) => {
+    res.render('project', {project: projects[0]});
+})
+
+router.get('/project/lil-libs', (req, res) => {
+    res.render('project', {project: projects[1]});
+})
 
 // PAGE NOT FOUND
 router.get('*', (req, res) => {

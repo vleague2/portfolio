@@ -172,10 +172,15 @@ h2, .project-head {
 }
 
 .project-text {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
+}
+
+.project-extra-text {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .project-heading {

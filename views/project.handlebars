@@ -8,17 +8,17 @@
     <div class="row">
         <div class="col-md-12">
             <h4 class="project-heading">PROJECT OVERVIEW</h4>
-            <p class="project-text text-center mt-4">
+            <p class="project-text mt-4">
             {{{project.description}}}
             </p>
         </div>
     </div>
 
     <div class="row justify-content-center pt-4 pb-4 mt-5" id="button-row">
-        <div class="col-md-4 text-center mt-2 mb-2">
+        <div class="col-md-2 text-center mt-2 mb-2">
             <a href="{{project.site_link}}" class="btn btn-lg project-btn">Live Site</a>
         </div>
-        <div class="col-md-4 text-center mt-2 mb-2">
+        <div class="col-md-2 text-center mt-2 mb-2">
             <a href="{{project.git_link}}" class="btn btn-lg project-btn">Code Repo</a>
         </div>
     </div>
@@ -28,7 +28,7 @@
             <h4 class="project-heading mb-4">Tech Stack</h4>
                 <ul>
                     {{#each project.tech}}
-                        <li>{{{this}}}</li>
+                        <li class="project-extra-text">{{{this}}}</li>
                     {{/each}}
                 </ul>
         </div>
@@ -37,7 +37,7 @@
             <h4 class="project-heading mb-4">Project Timeline</h4>
             <ul>
                 {{#each project.timeline}}
-                    <li>{{{this}}}</li>
+                    <li class="project-extra-text">{{{this}}}</li>
                 {{/each}}
             </ul>
         </div>
@@ -49,7 +49,7 @@
         <div class="col-md-6">
             <h4 class="project-heading mb-4">Major Challenges and Solutions</h4>
                 {{#each project.challenges}}
-                    <p>{{this}}</p>
+                    <p class="project-extra-text">{{this}}</p>
                 {{/each}}          
         </div>
 
@@ -57,7 +57,7 @@
             <h4 class="project-heading mb-4">Future Goals</h4>
             <ul>
                     {{#each project.goals}}
-                        <li>{{{this}}}</li>
+                        <li class="project-extra-text">{{{this}}}</li>
                     {{/each}}
             </ul>
         </div>
